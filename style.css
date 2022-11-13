@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card {
+    box-shadow: 1px 1px 5px;;
+    width: 465px;
+    height: 665px;
+    margin: 65px auto;
+    border-bottom: 13px solid rgba(255, 255, 255, 0);
+    transition: height 0.3s, border-color 0.3s, margin 0.3s;
+}
+
+.photo {
+    background-image: url('./photo.png');    
+    background-size: cover;
+    width: 465px;
+    height: 240px;
+}
+
+.travel, .planning, .final, .summer, .read {
+    padding-left: 60px;
+}
+
+.travel {
+    padding-top: 50px;
+    color: rgb(198,199,198);
+}
+
+.planning {
+    padding-top: 40px;
+    color: rgb(47,49,49);
+    font-size: 35px;
+}
+
+.final {
+    padding-top: 20px;
+    color: rgb(47,49,49);
+    font-size: 35px;
+}
+
+.summer {
+    padding-top: 45px;
+    padding-right: 65px;
+    color: rgb(124,127,126);
+    font-size: 21px;
+}
+
+.read {
+    padding-top: 45px;
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(79,137,246);
+}
+
+.card:hover {
+    margin: 52px auto;
+    height: 680px;
+    border-color: rgb(79,137,246);
+}
